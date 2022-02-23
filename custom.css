@@ -1,0 +1,83 @@
+
+
+/******************Header CSS Start******************/
+header{position: absolute;top: 0;z-index: 9999999999;width: 100%;}
+/******************Header CSS End******************/
+
+/******************Main Banner CSS Start******************/
+#mainBanner .overlay{position: absolute;top: 50%;transform: translateY(-50%); height: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;background: rgba(60, 41, 41, 0.8);width: 100%;}
+#mainBanner .overlay h2{font-weight: normal;font-size: 50px;line-height: 68px;color: #FFFFFF;}
+#mainBanner .overlay p{font-weight: 300;font-size: 24px;line-height: 33px;color: #FFFFFF;}
+
+
+/******************Main Banner CSS End******************/
+
+/******************MiniBanners CSS Start*******************/
+#WhyChooseUs{background-image: url("./images/Rectangle\ 2.png");background-size: cover;}
+#WhyChooseUs .chooseUsContentHolder {height: 350px; padding: 124px 0 0 151px;transition:0.7s ease-in;}
+.mainHeading{font-weight: 600;font-size: 26px;line-height: 35px;color: #FFFFFF;margin-bottom: 24px;}
+.contentpara{font-weight: 300;font-size: 18px;line-height: 25px;color: #FFFFFF;display: none;}
+#WhyChooseUs .chooseUsContentHolder:hover p{display: block;}
+#WhyChooseUs .chooseUsContentHolder.one:hover{border-right:0.5px solid #fff;border-bottom:0.5px solid #fff;}
+#WhyChooseUs .chooseUsContentHolder.two:hover{border-left:0.5px solid #fff;border-bottom:0.5px solid #fff;}
+#WhyChooseUs .chooseUsContentHolder.three:hover{border-right:0.5px solid #fff;border-top:0.5px solid #fff;}
+#WhyChooseUs .chooseUsContentHolder.four:hover{border-left:0.5px solid #fff;border-top:0.5px solid #fff;}
+/******************MiniBanners CSS End*******************/
+
+/******************Web Services CSS Start*******************/
+#WebServices{background-image: url("./images/image\ 5.png");background-size: cover;background-position: 50% 50%;}
+#WebServices .WebServicesContentHolder {height: 983px;object-fit: cover;display: flex;align-items: center;flex-direction: column;justify-content: center;}
+#WebServices .WebServicesContentHolder:hover p{display: block;}
+#WebServices .WebServicesContentHolder:hover {background: rgba(60, 41, 41, 0.3);}
+
+/******************Web Services CSS End*******************/
+
+/******************About Us CSS Start*******************/
+ #aboutUs .aboutoverlay {position: absolute;bottom: 80px;width: 50%;left: 90px;} 
+ #aboutUs .aboutoverlay h2{font-style: normal;font-weight: 300;font-size: 98.5263px;line-height: 134px;color: #FFFFFF;}
+ #aboutUs .aboutoverlay p{font-style: normal;font-weight: normal;font-size: 18px;line-height: 25px;color: #FFFFFF;}
+ #aboutUs .innerText h2{font-style: normal;font-weight: 300;font-size: 98.5263px;line-height: 134px;color: #7E7E7E;margin-top: 98px;margin-bottom: 49px;}
+ #aboutUs .innerText p{font-style: normal;font-weight: normal;font-size: 18px;line-height: 25px;text-align: center;color: #424242;margin-bottom: 70px;}
+ /******************About Us CSS End*******************/
+
+ /******************New Opening CSS Start*******************/
+
+ #NewOpeningMainBanner .overlay{position: absolute;top: 50%;transform: translateY(-50%);left: 0;right: 0;margin: 0 auto;text-align: center;background: rgba(56, 56, 56, 0.4); height: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 100%;}
+ #NewOpeningMainBanner .overlay h2{font-weight: normal;font-size: 62px;line-height: 58px;text-align: center;letter-spacing: 0.58em;text-transform: uppercase;color: #FFFFFF;}
+ #OpeningJobsRoles h3{font-style: normal;font-weight: bold;font-size: 52.9625px;line-height: 72px;color: #424242;margin-top: 90px;}
+ #OpeningJobsRoles form{max-width: 495px;width: 100%;margin:0 auto;}
+ #OpeningJobsRoles form input{border: 0;max-width: 495px;width: 100%;    padding-left: 50px;border-bottom:1px solid #424242;font-size: 23.4769px;line-height: 93.68%;color: #424242;font-weight: bold;font-style: italic;}
+ #OpeningJobsRoles form a{position: absolute;top:0px ;left: 20px;text-decoration: none;color: #424242;font-size: 23px;}
+ #OpeningJobsRoles .compensation{margin-bottom: 259px;}
+ #OpeningJobsRoles h4{font-weight: bold;font-size: 30px;line-height: 93.68%;    color: #424242;margin-bottom: 10px;}
+ #OpeningJobsRoles span{font-weight: 600;font-size: 20px;line-height: 93.68%;color: #424242;margin-bottom: 52px;display: block;}
+ #OpeningJobsRoles p{font-weight: normal;font-size: 16px;line-height: 22px;color: #FFFFFF;visibility: hidden;height:0;}
+ #OpeningJobsRoles strong{font-weight: bold;font-size: 30px;line-height: 93.68%;color: #424242;}
+ #OpeningJobsRoles .openingJobPostDetials{margin-bottom:0px;padding:35px 15px;}
+ #OpeningJobsRoles .openingJobPostDetials.one:hover{background: #B75151;border-radius: 50px 0px 0px 0px;padding:35px 66px;}
+ #OpeningJobsRoles .openingJobPostDetials.two:hover{background: #B75151;border-radius: 0px 50px 0px 0px;padding:35px 66px;}
+ #OpeningJobsRoles .openingJobPostDetials.three:hover{background: #B75151;border-radius: 0px 0px 0px 50px;padding:35px 66px;}
+ #OpeningJobsRoles .openingJobPostDetials.four:hover{background: #B75151;border-radius: 0px 0px 50px 0px;padding:35px 66px;}
+
+ #OpeningJobsRoles .openingJobPostDetials:hover p{visibility: visible;height: auto;}
+ #OpeningJobsRoles .openingJobPostDetials:hover h4{color: #FFFFFF;}
+ #OpeningJobsRoles .openingJobPostDetials:hover span{color: #FFFFFF;margin-bottom: 37px;}
+ #OpeningJobsRoles .openingJobPostDetials:hover strong{color: #FFFFFF;}
+ /******************New Opening CSS End*******************/
+
+ /******************Testimonials CSS Start*******************/
+#TestimonialsBanner .overlay{position: absolute;top: 50%;transform: translateY(-50%);left: 0;right: 0;margin: 0 auto;text-align: center;background: rgba(56, 56, 56, 0.4); height: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 100%;}
+#TestimonialsBanner .overlay h2{font-weight: bold;font-size: 62px;line-height: 93.68%;text-align: right;letter-spacing: 0.58em;text-transform: uppercase;color: #FFFFFF;}
+
+#testimonialsImgText{margin-top: 147px;}
+#testimonialsTextImg{margin-top: 156px;}
+.testimonialsInner h3{font-weight: 600;font-size: 52.9625px;line-height: 72px;text-transform: lowercase;color: #424242;margin-bottom: 0;}
+.testimonialsInner h3 strong {font-weight: 800;}
+.testimonialsInner span{font-weight: bold;font-size: 31.1193px;line-height: 42px;color: #B75151;display: block;margin-bottom: 40px;}
+.testimonialsInner p{font-weight: normal;font-size: 16px;line-height: 22px;color: #424242;margin-bottom: 0;}
+
+.testimonialsInner .testimonialContent{display: flex;align-items: flex-start;flex-direction: column;justify-content: flex-end;}
+
+ /******************Testimonials CSS Start*******************/
+
+
